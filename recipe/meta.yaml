@@ -1,5 +1,5 @@
 {% set name = "django_unicorn" %}
-{% set version = "0.50.0" %}
+{% set version = "0.51.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 181aeb6ea51b26f37d3e6be2de76b1831f24c02611a9f55cbc59ebebda4e84b4
+  sha256: 26fa9af3fe8ad594acc1099c316537157f9585bfef673eea44cc4445ae2772c0
 
 build:
   noarch: python
@@ -47,7 +47,7 @@ test:
 
 about:
   home: https://www.django-unicorn.com/
-  summary: 'The magical reactive component framework for Django'
+  summary: The magical reactive component framework for Django
   description: |
     Unicorn adds modern reactive component functionality to your Django templates 
     without having to learn a new templating language or fight with complicated 
