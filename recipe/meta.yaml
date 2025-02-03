@@ -1,13 +1,13 @@
 {% set name = "django_unicorn" %}
-{% set version = "0.60.0" %}
+{% set version = "0.62.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: fe988e32dbf71a47435b456be6b6e146391af365097b8a51bfe56a2648822919
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: dedf97e4c59e288537911c995a6d0c08615bd3274bb77b43e8031f4c2d365082
 
 build:
   noarch: python
